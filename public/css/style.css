@@ -1,0 +1,176 @@
+/*-------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+/* MODAL */
+
+dialog {
+    width: 600px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+}
+
+dialog::backdrop {
+    background-color: rgba(32, 30, 30, 0.274);
+}
+
+dialog .container-login {
+    font-family: "Roboto", sans-serif;
+    margin: 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+dialog input {
+    margin: 5px;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+
+dialog .container-register {
+    font-family: "Roboto", sans-serif;
+    margin: 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+
+
+/* Coluna esquerda */
+
+#container-left {
+    border: 1px solid black;
+    background-color: rgba(128, 128, 128, 0.151);
+    width: 400px;
+}
+
+#container-left .container-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+#container-left .img-avatar {
+    width: 100px;
+    margin: 20px;
+}
+
+.container-user h3 {
+    margin: 8px 0;
+}
+
+.container-likes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container-likes img {
+    width: 60px;
+}
+
+.container-likes span {
+    padding: 0 10px;
+}
+
+#container-left input {
+    background-color: rgb(4, 121, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 8px;
+    margin: 15px 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+/* coluna direita */
+
+#container-right {
+    border: 1px solid black;
+    padding: 10px;
+    width: 1200px;
+}
+
+.product-card {
+    background-color: rgba(128, 128, 128, 0.137);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-card .img-product {
+    width: 60%;
+    height: 25%;
+    margin: 5px auto;
+}
+
+.container-coments img {
+    width: 40px;
+    padding: 5px 2px;
+}
+
+/* roda-pé */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background-color: rgba(128, 128, 128, 0.151);
+
+}
+
+.container-icons img {
+    width: 40px;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
