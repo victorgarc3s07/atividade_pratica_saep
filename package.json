@@ -1,0 +1,29 @@
+{
+  "name": "pratica-saep",
+  "version": "1.0.0",
+  "description": "Projeto para a prova prática do saep",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorgarc3s07/atividade_pratica_saep.git"
+  },
+  "author": "Victor Freitas Garces",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorgarc3s07/atividade_pratica_saep/issues"
+  },
+  "homepage": "https://github.com/victorgarc3s07/atividade_pratica_saep#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

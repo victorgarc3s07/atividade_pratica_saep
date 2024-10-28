@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troca Tudo</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="public/js/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <!-- modal de login e registro -->
+        <!-- <dialog open="">
+            <div class="container-login">
+                <h2>Entre na sua conta</h2>
+                <span id="close-modal" onclick="fecharModal()">&times;</span>
+                <input type="email" name="" id="email" placeholder="Digite seu email">
+                <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                <input type="submit" value="Entrar" onclick="fazerLogin()">
+            </div>
+            <div class="container-register">
+                <h2>Crie seu conta</h2>
+                <input type="text" name="name" id="name_user" placeholder="Digite seu nome">
+                <input type="email" name="email" id="email" placeholder="Digite um email válido">
+                <input type="datetime-local" name="data" id="birth-data" placeholder="Digite a sua data de nascimento">
+                <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                <input type="submit" value="Cadastre-se">
+            </div>
+    
+        </dialog> -->
+
+        <!-- coluna esquerda -->
+        <section id="container-left">
+            <div class="container-user">
+                
+                <img src="assets/avatars/default-avatar.jpg" alt="avatar_user" class="img-avatar">
+                <h3>Usuário não logado</h3>
+                <div class="container-likes">
+                    <img src="assets/images/curtidas.jpg" alt="likes">
+                    <span>0</span>
+                    <img src="assets/images/descurtidas.jpg" alt="deslikes">
+                    <span>0</span>
+                </div>
+                <input type="submit" value="Entrar" id="login" onclick="abrirModal()">
+
+            </div>
+
+        </section>
+        <!-- coluna direita -->
+        <section id="container-right">
+            <div class="container-product">
+                
+                <div class="product-card">
+                    <h1>Produto 1</h1>
+                    <img src="assets/images/produto1.jpg" alt="PRODUTO 1" class="img-product">
+                    <hr>
+                    <div class="container-coments">
+                        <img src="assets/images/like.jpg" alt="gostei">
+                        <img src="assets/images/deslike.jpg" alt="não gostei">
+                        <img src="assets/icons/comentarios.svg" alt="comentários">
+                    </div>
+
+                    <div class="coment-data"></div>
+                </div>
+
+                <div class="product-card">
+                    <h1>Produto 2</h1>
+                    <img src="assets/images/produto2.jpg" alt="PRODUTO 2" class="img-product">
+                    <hr>
+                    <div class="container-coments">
+                        <img src="assets/images/like.jpg" alt="gostei">
+                        <img src="assets/images/deslike.jpg" alt="não gostei">
+                        <img src="assets/icons/comentarios.svg" alt="comentários">
+                    </div>
+
+                    <div class="coment-data"></div>
+                </div>
+
+                <div class="product-card">
+                    <h1>Produto 3</h1>
+                    <img src="assets/images/produto3.jpg" alt="PRODUTO 3" class="img-product">
+                    <hr>
+                    <div class="container-coments">
+                        <img src="assets/images/like.jpg" alt="gostei">
+                        <img src="assets/images/deslike.jpg" alt="não gostei">
+                        <img src="assets/icons/comentarios.svg" alt="comentários">
+                    </div>
+
+                    <div class="coment-data"></div>
+
+                </div>
+                
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- modal -->
+    <div id="modal">
+        <div class="modal-container">
+            <span class="close-modal" onclick="fecharModal()">&times;</span>
+            <h2>Entrar</h2>
+            <input type="email" name="email" placeholder="Digite seu email" required>
+            <input type="password" name="senha" placeholder="Digite sua senha" required>
+            <input type="button" id="btn-login" value="Entrar" onclick="fazerLogin()">
+            <p id="response"></p>
+        </div>
+    </div>
+
+
+
+    <!-- rodá-pé -->
+    <footer>
+        <h3>TROCA TUDO</h3>
+        <div class="container-icons">
+            <img src="assets/icons/facebook.svg" alt="facebook">
+            <img src="assets/icons/instagram.svg" alt="instagram">
+            <img src="assets/icons/tiktok.svg" alt="tiktok">
+            <img src="assets/icons/youtube.svg" alt="youtube">
+        </div>
+        <p>@ 2024 Troca Tudo.SA</p>
+    </footer>
+</body>
+</html>
