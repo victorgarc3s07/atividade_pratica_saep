@@ -1,18 +1,21 @@
-//-----------------------------------
-//------função de abrir e fechar modal---------------
+//---------- função para modal ------------
+const buttonLogin = document.querySelector("#login");
+const modal = document.querySelector("dialog");
+const buttonFechar = document.querySelector("#close-modal");
 
-function abrirModal() {
-    document.querySelector('#modal').style.display = 'block';
+
+buttonLogin.onclick = function() {
+    modal.showModal();
+}
+buttonFechar.onclick = function() {
+    modal.close();
 }
 
-function fecharModal() {
-    const modal = document.querySelector('#modal');
-    modal.style.display = 'none';
-}
-
-addEventListener('click', abrirModal);
-addEventListener('click', fecharModal);
-
+modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+        modal.close();
+    }
+});
 
 
 

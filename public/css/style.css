@@ -17,11 +17,12 @@ main {
 
 /* MODAL */
 
-/* dialog {
+dialog {
     width: 600px;
     border-radius: 5px;
     border: none;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    margin: 200px auto;
 }
 
 dialog::backdrop {
@@ -53,46 +54,7 @@ dialog .container-register {
     justify-content: center;
     align-items: center;
     font-size: 22px;
-} */
-
-#modal {
-    border: 1px solid black;
-    padding: 10px;
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(204, 11, 11);
 }
-
-.modal-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.modal-container h2 {
-    font-size: 22px;
-    font-family: "Roboto", sans-serif;
-}
-
-.modal-container input {
-    margin: 10px 5px;
-    width: 200px;
-    height: 25px;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-}
-
-.modal-container #btn-login {
-    background-color: rgb(0, 132, 255);
-    color: white;
-}
-
 
 /* Coluna esquerda */
 

@@ -20,6 +20,7 @@ const connectionDb = mysql.createConnection({
     database: 'troca_tudo_SAEP'
 });
 
+
 connectionDb.connect((err) => {
     console.log('Conectando ao banco...');
     if(err) {

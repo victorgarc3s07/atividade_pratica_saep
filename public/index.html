@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Troca Tudo</title>
     <link rel="stylesheet" href="/css/style.css">
-    <script src="public/js/script.js" defer></script>
+    <script src="/js/script.js" defer></script>
 </head>
 <body>
     <main>
         <!-- modal de login e registro -->
-        <!-- <dialog open="">
+        <dialog>
             <div class="container-login">
                 <h2>Entre na sua conta</h2>
-                <span id="close-modal" onclick="fecharModal()">&times;</span>
+                <span id="close-modal">&times;</span>
                 <input type="email" name="" id="email" placeholder="Digite seu email">
                 <input type="password" name="password" id="password" placeholder="Digite sua senha">
                 <input type="submit" value="Entrar" onclick="fazerLogin()">
@@ -27,7 +27,7 @@
                 <input type="submit" value="Cadastre-se">
             </div>
     
-        </dialog> -->
+        </dialog>
 
         <!-- coluna esquerda -->
         <section id="container-left">
@@ -41,7 +41,7 @@
                     <img src="assets/images/descurtidas.jpg" alt="deslikes">
                     <span>0</span>
                 </div>
-                <input type="submit" value="Entrar" id="login" onclick="abrirModal()">
+                <input type="submit" value="Entrar" id="login">
 
             </div>
 
@@ -95,20 +95,6 @@
         </section>
 
     </main>
-
-    <!-- modal -->
-    <div id="modal">
-        <div class="modal-container">
-            <span class="close-modal" onclick="fecharModal()">&times;</span>
-            <h2>Entrar</h2>
-            <input type="email" name="email" placeholder="Digite seu email" required>
-            <input type="password" name="senha" placeholder="Digite sua senha" required>
-            <input type="button" id="btn-login" value="Entrar" onclick="fazerLogin()">
-            <p id="response"></p>
-        </div>
-    </div>
-
-
 
     <!-- rodá-pé -->
     <footer>
